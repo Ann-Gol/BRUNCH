@@ -54,6 +54,7 @@ a {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 155px;
 }
 
 .header__inner img {
@@ -80,12 +81,13 @@ a {
 
 .sticker {
   margin-top: 155px;
-  margin: 0 auto;
-  position: absolute;
   width: 758px;
   height: 472px;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 120px 110px;
+  text-align: center;
+  padding-top: 100px;
+  /* padding: 100px 110px;  */
+  margin: 0 auto;
 }
 
 .sticker-title {
@@ -93,22 +95,23 @@ a {
   font-size: 104px;
   font-weight: 400;
   color: #2c3a42;
-  text-align: center;
 }
 
 .sticker-info {
   font-size: 77px;
   font-weight: 600;
   color: #ad6c12;
+  margin-bottom: 25px;
 }
 
 .sticker-read {
+  margin: 0 auto;
   width: 267px;
   height: 60px;
-  font-weight: 600;
-  color: #26363a;
-  background-color: #fff;
-  padding: 15px 5px;
-  margin: 0 auto;
   text-align: center;
+  background-color: #fff;
+  padding: 10px 5px;
+  font-weight: 600;
+  font-size: 38.5px;
+  color: #26363a;
 }
