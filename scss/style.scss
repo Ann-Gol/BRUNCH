@@ -1,0 +1,70 @@
+@import'global';
+@import'vars';
+
+
+.wrapper{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+.header__inner{
+    height: 150px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        margin-left: 70px;
+    }
+    .menu__list{
+        display: flex;                
+        li{
+            margin-left: 25px;
+            a{
+                font-size: 30px;
+                font-weight: 700;        
+                color: #dddedf;
+                text-transform: uppercase;
+            }
+        }
+    }        
+}
+    
+       
+   .sticker{
+    margin-top: 155px; 
+    margin: 0 auto; 
+    position: absolute;
+    width: 758px;
+    height: 472px;    
+    background-color: rgba(255, 255, 255, .8);
+    padding: 50px 50px;           
+      }
+    &-title{
+        font-family: Cookie;
+        font-size: 104px;
+        font-weight: 400;                 
+        color: #2c3a42;
+        text-align: center;
+      }
+       &-info{
+        font-size: 77px;
+        font-weight: 600;       
+        color: #ad6c12;
+       } 
+       &-read{
+        width: 267px;
+        height: 60px;
+        font-weight: 600;
+        color: #26363a;       
+        background-color: #fff;
+        padding: 15px 5px; 
+        margin: 0 auto;
+        text-align: center;           
+      }
+    
+    
+     
+
+

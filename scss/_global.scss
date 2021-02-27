@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+   font-family: Raleway; 
+}
+
+
+.container{
+    max-width: 1185px;    
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;    
+}
