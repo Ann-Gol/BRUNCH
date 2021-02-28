@@ -1,0 +1,57 @@
+   @media (max-width: 1200px){
+   .caiman1{
+    max-width: 100%;
+    max-height: 100%;
+   }
+   .caiman2{
+      max-width: 100%;
+      max-height: 100%;
+     }
+     .spectrum__inner{
+      min-height: 280px;
+      padding-top: 50px;
+      align-items: center;        
+   }
+}
+
+@media (max-width: 1100px){
+    .preview{
+    min-height: 1100px;
+    }
+    .preview__inner{
+        min-height: 950px;  
+    }
+
+    .preview__box{
+       max-width: 1080px;
+    }
+
+     .preview__box img{
+        width: 245px;
+        height: 249px;  
+     }
+      .preview__box-text{
+        width: 245px;
+        height: 249px;
+        padding-top: 60px;   
+      }
+     
+    }
+
+    @media (max-width: 1000px){
+      spectrum-title{
+         margin-bottom: 15px;
+      }
+      .spectrum-text{
+         margin-bottom: 20px;
+         font-size: 15px;
+         line-height: 20px;        
+      }
+      .circle{
+         margin-bottom: -20px;
+      }
+      .spectrum .circle{
+         width: 15px;
+         height: 15px;
+      } 
+    }   
