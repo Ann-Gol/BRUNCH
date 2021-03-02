@@ -7,6 +7,10 @@ html{
     box-sizing: inherit;
 }
 
+*, a:focus {
+    outline: none !important;
+}
+
 body{
    font-family: Raleway; 
 }
@@ -40,11 +44,18 @@ a{
        text-transform: capitalize;
        margin-bottom: -20px;                
     } 
-    /* padding: 30px 15px */;           
-    /* min-height: 207px; */
-    font-size: 47.5px;
+    
+   font-size: 47.5px;
    font-weight: 600;            
-   color: #ad6c12; 
-  /*  margin: 0 auto; */
+   color: #ad6c12;   
    text-transform: uppercase;                                            
 }  
+
+.single{    
+       font-family: Cookie;
+       font-size: 77px;
+       font-weight: 400;                                
+       color: #fff;
+       text-transform: capitalize;
+}
+
