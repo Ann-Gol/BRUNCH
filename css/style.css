@@ -142,11 +142,11 @@ a {
   text-transform: uppercase;
 }
 
-.discriotion {
+.discription {
   background-color: #2a3b40;
 }
 
-.discriotion__inner {
+.discription__inner {
   min-height: 488px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -163,13 +163,13 @@ a {
   color: #fff;
 }
 
-.discriotion-title {
+.discription-title {
   font-size: 29.2px;
   font-weight: 700;
   margin-bottom: 47px;
 }
 
-.discriotion-text {
+.discription-text {
   font-size: 18px;
   font-weight: 400;
   max-width: 553px;
@@ -479,6 +479,10 @@ a {
   background-position: center;
 }
 
+.height {
+  height: 865px;
+}
+
 .select-form {
   background-color: #2a3b40;
   min-height: 500px;
@@ -573,14 +577,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-color: #2a3b40;
 }
 
-.arrow,
-.clock {
+.arrow {
   z-index: 10;
   position: relative;
 }
 
-.arrow ::after,
-.clock ::after {
+.arrow ::after {
   content: '';
   background-image: url(/img/icons/Polygon_2.png);
   width: 13px;
@@ -599,6 +601,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .calendar ::after {
   content: '';
   background-image: url(/img/icons/calendar.png);
+  width: 20px;
+  height: 20px;
+  top: 35px;
+  right: 15px;
+  position: absolute;
+  z-index: -1;
+}
+
+.clock {
+  z-index: 10;
+  position: relative;
+}
+
+.clock ::after {
+  content: '';
+  background-image: url(/img/icons/clock.png);
   width: 20px;
   height: 20px;
   top: 35px;
@@ -641,4 +659,153 @@ select {
           border-radius: 8px;
   border: 1px solid #fff;
   cursor: pointer;
+}
+
+.new-menu {
+  background-color: #d4d8d9;
+}
+
+.new-menu__item {
+  width: 340px;
+}
+
+.new-menu__item + .new-menu__item {
+  margin-left: 34px;
+}
+
+.new-menu__item img {
+  vertical-align: bottom;
+}
+
+.new-menu__inner {
+  min-height: 820px;
+  padding-top: 45px;
+}
+
+.new-menu__inner-title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.new-menu__item-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description-box {
+  width: 340px;
+  min-height: 200px;
+  padding-top: 25px;
+  padding-left: 20px;
+  background-color: #fff;
+}
+
+.description-box a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #555555;
+  border-bottom: 7px solid #ff992b;
+}
+
+.description-box a:hover {
+  border-bottom: transparent;
+}
+
+.description-box .name-date {
+  font-size: 14px;
+  font-weight: 700;
+  color: #555555;
+  margin-bottom: 25px;
+}
+
+.description-box .description {
+  font-size: 16.7px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #4f4e4e;
+  margin-bottom: 25px;
+}
+
+.description-box .description span {
+  display: block;
+  font-size: 16.7px;
+  font-weight: 700;
+  color: #4f4e4e;
+  margin-bottom: 7px;
+}
+
+.top-footer {
+  background-color: #2a3b40;
+}
+
+.top-footer__inner {
+  min-height: 340px;
+  color: #fff;
+  font-size: 18.8px;
+  font-weight: 400;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.top-footer__inner-author {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.top-footer__inner-text {
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+.top-footer__inner .symbol {
+  font-size: 83.3px;
+  font-weight: 700;
+  margin-bottom: -25px;
+}
+
+/* .top-footer__inner-social{
+align-items: center;
+} */
+.menu__social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 333px;
+  margin: 0 auto;
+}
+
+.menu__social li + li {
+  margin-left: 25px;
+}
+
+.menu__social li a {
+  width: 46px;
+  height: 46px;
+  background-image: url(/img/icons/sprite__social.png);
+}
+
+.menu__social .facebook__link {
+  background-position: -46px 0;
+}
+
+.menu__social .twitter__link {
+  background-position: 0 -46px;
+}
+
+.menu__social .instagram__link {
+  background-position: -46px -46px;
+}
+
+.menu__social .pinterest__link {
+  background-position: -92px 0;
 }

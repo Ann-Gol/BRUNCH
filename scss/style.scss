@@ -65,7 +65,7 @@
       }
 
 
-.discriotion{
+.discription{
    background-color: $bg;
   &__inner{
     min-height: 488px;
@@ -311,6 +311,10 @@ margin-bottom: 30px;
     background-position: center;
 }
 
+.height{
+    height: 865px;
+}
+
 .select-form{
     background-color: $bg;
     min-height: 500px;
@@ -365,8 +369,7 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     background-color: $bg;      
 }
 
-.arrow,
-.clock{    
+.arrow{    
     z-index: 10;
     position: relative;         
     ::after{
@@ -396,6 +399,21 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     }
 }
 
+.clock{    
+    z-index: 10;
+    position: relative;         
+    ::after{
+        content: '';       
+        background-image: url(/img/icons/clock.png);
+        width: 20px;
+        height: 20px;
+        top: 35px;
+        right: 15px;
+        position: absolute;
+        z-index: -1;                              
+    }  
+}
+
 .correct{
     padding-right: 10px;             
 }
@@ -422,4 +440,124 @@ select{
         border: 1px solid #fff;
         cursor: pointer;
     }
-}   
+}
+
+
+.new-menu{
+    background-color: $grey;
+    &__item{
+       width: 340px;       
+       & + &{
+           margin-left: 34px;
+       }
+       & img{
+        vertical-align: bottom  
+       }     
+    }
+   &__inner{
+    min-height: 820px;
+    padding-top: 45px;
+    &-title{
+       text-align: center;
+       margin-bottom: 55px;
+    } 
+}
+&__item-box{
+    display: flex;
+    justify-content: center;
+ }
+}
+
+.description-box{
+    width: 340px;
+    min-height: 200px;
+    padding-top: 25px;
+    padding-left: 20px;
+    background-color: #fff;
+    a{
+        font-size: 14px;
+        font-weight: 700;        
+        color: #555555;                 
+        border-bottom: 7px solid #ff992b;
+        &:hover{
+            border-bottom: transparent;
+        }               
+      }
+    
+    & .name-date{
+        font-size: 14px;
+        font-weight: 700;        
+        color: #555555;
+        margin-bottom: 25px;
+    }
+    & .description{        
+        font-size: 16.7px;
+        font-weight: 400;        
+        line-height: 20px;        
+        color: #4f4e4e;
+        margin-bottom: 25px;
+        & span{
+            display: block;
+            font-size: 16.7px;
+            font-weight: 700;            
+            color: #4f4e4e;
+            margin-bottom: 7px;            
+        }
+    } 
+}  
+.top-footer{
+    background-color: $bg;
+    &__inner{
+        min-height: 340px;
+        color: #fff;
+        font-size: 18.8px;
+        font-weight: 400;
+        padding-top: 40px;
+        text-align: center;
+        &-author{
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        &-text{
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            line-height: 32px;
+        }
+         .symbol{
+            font-size: 83.3px;
+            font-weight: 700;
+            margin-bottom: -25px;            
+        }  
+    }
+}
+
+/* .top-footer__inner-social{
+align-items: center;
+} */
+.menu__social{
+    display: flex;    
+    width: 333px;
+    margin: 0 auto;
+    & li + li{
+        margin-left: 25px;
+    }    
+    & li a{
+        width: 46px;
+        height: 46px;
+        background-image: url(/img/icons/sprite__social.png);
+    }
+    .facebook__link{
+        background-position: -46px 0;
+    }
+    .twitter__link{
+        background-position: 0 -46px ;
+    }
+    .instagram__link{
+        background-position: -46px -46px;
+    }
+    .pinterest__link{
+        background-position: -92px 0;
+    }
+}
