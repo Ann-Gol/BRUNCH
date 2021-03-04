@@ -374,7 +374,7 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     position: relative;         
     ::after{
         content: '';       
-        background-image: url(/img/icons/Polygon_2.png);
+        background-image: url(img/icons/Polygon_2.png);
         width: 13px;
         height: 11px;
         top: 40px;
@@ -389,7 +389,7 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     position: relative;    
     ::after{
         content: '';       
-        background-image: url(/img/icons/calendar.png);
+        background-image: url(img/icons/calendar.png);
         width: 20px;
         height: 20px;
         top: 35px;
@@ -404,7 +404,7 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     position: relative;         
     ::after{
         content: '';       
-        background-image: url(/img/icons/clock.png);
+        background-image: url(img/icons/clock.png);
         width: 20px;
         height: 20px;
         top: 35px;
@@ -549,7 +549,7 @@ select{
     & li a{
         width: 46px;
         height: 46px;
-        background-image: url(/img/icons/sprite__social.png);
+        background-image: url(img/icons/sprite__social.png);
     }
     .facebook__link{
         background-position: -46px 0;
